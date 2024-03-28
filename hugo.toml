@@ -1,0 +1,28 @@
+ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
+baseURL = "https://kumiho.zip/"
+languageCode = "en-US"
+title = "kumiho.zip | 구미호.집"
+theme = "bootstrap-bp-hugo-startpage"
+copyright = "Sebastian Pech"
+enableRobotsTXT = true
+pygmentsCodeFences = true
+canonifyurls = true
+paginate = 5
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    post = "/:year/:month/:slug/"
+    pages = "/:slug/"
+    page = "/:slug/"
+
+[params]
+  description = "구미호.집"
+  #images = ["logo.jpg"]
+  startPageColumns = false
+  welcomeText = "kumiho.zip | 구미호.집"
+
+[taxonomies]

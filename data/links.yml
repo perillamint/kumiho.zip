@@ -1,0 +1,12 @@
+---
+- group: Kitsune Project
+  items:
+    - title: joinkitsune.org
+      url: https://joinkitsune.org
+      icon: fas fa-globe
+    - title: kitsune-soc (GitHub)
+      url: https://github.com/kitsune-soc/kitsune
+      icon: fab fa-github
+    - title: Kitsune Woodpecker
+      url: https://ci.kumiho.zip
+      icon: fas fa-file-code
